@@ -3,12 +3,26 @@ body {
   padding: 0;
 }
 
+.headerSection {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #dfdfdf;
+}
+.headerSection > span {
+  display: inline-block;
+  width: 1198px;
+  height: 80px;
+  background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -15px -1px;
+}
+
 .photoGallery {
   width: 1126px;
   height: 585px;
   margin: 0 auto;
   background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/photoGallery.png);
-  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,7 +41,6 @@ body {
 
 .additional > div {
   width: 750px;
-  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
