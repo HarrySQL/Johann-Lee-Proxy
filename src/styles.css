@@ -6,7 +6,7 @@ body {
 .headerSection {
   width: 100%;
   text-align: center;
-  border-bottom: 2px solid #dfdfdf;
+  border-bottom: 1px solid #dddd;
 }
 .headerSection > span {
   display: inline-block;
@@ -64,4 +64,8 @@ body {
   float: right;
   margin-top: 40px;
   margin-right: 10px;
+}
+
+#reviews > div > div {
+  border-top: 1px solid #dddddd;
 }
