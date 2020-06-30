@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.photoGallery {
+  width: 1126px;
+  height: 585px;
+  margin: 0 auto;
+  background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/photoGallery.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation {
+  width: 1126px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.additional {
+  float: left;
+  height: 1519px;
+  /* height: 2075px; */
+}
+
+.additional > div {
+  width: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.additional> div:nth-child(1) {
+  height: 810px;
+  background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional1.png);
+}
+
+.additional> div:nth-child(2) {
+  height: 709px;
+  background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional2.png);
+}
+
+/* .additional> div:nth-child(3) {
+  height: 556px;
+  background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional3.png);
+} */
+
+#checkout {
+  float: right;
+  margin-top: 40px;
+  margin-right: 10px;
+}
