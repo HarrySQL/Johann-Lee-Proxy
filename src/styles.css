@@ -62,8 +62,51 @@ body {
 
 #checkout {
   float: right;
+  width: 363px;
   margin-top: 40px;
   margin-right: 10px;
+}
+
+#checkout > div {
+  width: 100%;
+  height: unset;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#checkout > div > button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#checkout > div > div:nth-child(2) {
+  margin: 15px auto;
+  width: 100%;
+}
+
+#checkout > div> div:nth-child(2) > div > div > div {
+  float : unset;
+}
+
+#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  width: 44%;
+}
+
+#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  width: 46%;
+}
+
+#checkout > div> div:nth-child(2) > div:nth-child(3) {
+  width: 100%;
+}
+
+#checkout > div> div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1){
+  width: 98%;
+}
+
+#checkout > div> div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div {
+  width: 92%;
 }
 
 #reviews > div > div {
