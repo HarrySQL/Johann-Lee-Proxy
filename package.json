@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/jhnlee0526/Johann-Lee-Proxy#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4",
     "nodemon": "^2.0.4"
   }
 }
