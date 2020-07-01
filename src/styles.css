@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/********************/
+/* header ***********/
 .headerSection {
   width: 100%;
   text-align: center;
@@ -18,6 +19,8 @@ body {
   background-position: -15px -1px;
 }
 
+/********************/
+/* photo gallery ****/
 .photoGallery {
   width: 1126px;
   height: 585px;
@@ -27,39 +30,42 @@ body {
   background-size: cover;
 }
 
+/********************/
+/* reservation :
+*  additional info(image) + checkout module
+*/
 .reservation {
   width: 1126px;
   margin: 0 auto;
   overflow: hidden;
 }
 
+/* additional info(image) *****/
 .additional {
   float: left;
   height: 1519px;
   /* height: 2075px; */
 }
-
 .additional > div {
   width: 750px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .additional> div:nth-child(1) {
   height: 810px;
   background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional1.png);
 }
-
 .additional> div:nth-child(2) {
   height: 709px;
   background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional2.png);
 }
-
 /* .additional> div:nth-child(3) {
   height: 556px;
   background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional3.png);
 } */
 
+
+/* checkout module *****/
 #checkout {
   float: right;
   width: 363px;
@@ -71,44 +77,98 @@ body {
   width: 100%;
   height: unset;
   margin: 0;
+  padding: 24px;
   box-sizing: border-box;
 }
 
+/* Checkout button */
 #checkout > div > button {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 4px;
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+}
+#checkout > div > button:hover {
+  background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+  transition: opacity 1.25s ease 0s !important;
 }
 
+/* Heeader of checkout module */
+#checkout > div > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) {
+  font-size: 22px;
+}
+#checkout > div > div:nth-child(1) > div:nth-child(1) > span:nth-child(3) {
+  font-size: 16px;
+}
+#checkout > div > div:nth-child(1) > div:nth-child(2) {
+  position: relative;
+  top: 7px;
+}
+#checkout > div > div:nth-child(1) > div:nth-child(2) > span {
+  font-size: 14px;
+}
+#checkout > div > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > img {
+  width: 11px;
+}
+
+/* content box of checkout module : check-in, check-out, guests */
 #checkout > div > div:nth-child(2) {
   margin: 15px auto;
   width: 100%;
+  height: 104px;
 }
-
 #checkout > div> div:nth-child(2) > div > div > div {
   float : unset;
 }
 
+/* check-in part */
 #checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   width: 44%;
 }
-
-#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-  width: 46%;
+#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  font-size: 11px;
+}
+#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  font-size: 14px;
 }
 
+/* check-out part */
+#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  width: 45%;
+}
+#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+  font-size: 11px;
+}
+#checkout > div> div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
+  font-size: 14px;
+}
+
+/* guests part */
 #checkout > div> div:nth-child(2) > div:nth-child(3) {
   width: 100%;
 }
-
 #checkout > div> div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1){
   width: 98%;
 }
-
-#checkout > div> div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div {
-  width: 92%;
+#checkout > div> div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) > span:nth-child(1) > div{
+  font-size: 14px;
+}
+#checkout > div> div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) > span:nth-child(2) > img {
+  position: relative;
+  top: 10px;
 }
 
+/* checkout modal */
+#checkout > div> div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div {
+  top: 182px;
+  right: 22px;
+  width: 84%;
+
+}
+
+/********************/
+/* reviews module ****/
 #reviews > div > div {
   border-top: 1px solid #dddddd;
 }
