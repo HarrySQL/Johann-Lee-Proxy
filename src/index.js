@@ -12,12 +12,12 @@ $( document ).ready(function(){
       $('#checkout').css({
         'position': 'fixed',
         'top': '-38px',
-        'right': '105px'
+        'right': '20%'
       });
     } else {
       $('#checkout').css({
         'position': 'relative',
-        'top': '1130px',
+        'top': '1000px',
         'right': '0px'
       });
     }
