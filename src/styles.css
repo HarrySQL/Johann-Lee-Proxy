@@ -44,7 +44,6 @@ body {
 .additional {
   float: left;
   height: 1519px;
-  /* height: 2075px; */
 }
 .additional > div {
   width: 750px;
@@ -59,10 +58,6 @@ body {
   height: 709px;
   background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional2.png);
 }
-/* .additional> div:nth-child(3) {
-  height: 556px;
-  background-image: url(https://rooms.s3-us-west-1.amazonaws.com/images/additional3.png);
-} */
 
 
 /* checkout module *****/
